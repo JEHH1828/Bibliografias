@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+#cabeza {
+  background-color: rgb(132, 189, 50);
+
+}
+
+
+
+#formulario{
+  max-width: 20%;
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(71, 84, 73);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(94, 107, 126);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid black;  /* creates padding around scroll thumb */
+}
+
+#laa{
+  font-family: 'Bevan', cursive;
+  text-transform: uppercase;
+  font-size: large;
+  text-align: center;
+  
+  
+  display: table;
+  margin: 0 auto;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="bg-secondary ">
+
+    <div id="barra"></div>
+
+    
+    <div class="d-flex  " id="datos">
+        <div id="formulario" class=" me-auto  bg-primary p-1" >
+            <form id="nlform" class=" align-items-start" action="">
+                <input  class="my-1 p-2 form-control m-auto" type="text" name="title" placeholder="Titulo" >
+                <input class="my-1 form-control m-auto" required type="text" name="texto" placeholder="Texto">
+                <input class="p-2 my-1 form-control m-auto" required type="url" name="linkurl" id="" placeholder="URL"><br>
+                
+                <button class="btn btn-success m-auto ">Añadir</button>
+            </form>
+
+        </div>
+        <div class="">
+            <div id="cabeza"></div>
+            <div id="lista" class="bg-info"></div>
+        </div>
+    </div>
+
+
+
+    <div class="cdqr" >
+        <form action="" id="form">
+
+            <button>QR</button>
+        </form>
+        <div id="cdqr"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" ></script>
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/js/qr.js"></script>
+</body>
+</html>
